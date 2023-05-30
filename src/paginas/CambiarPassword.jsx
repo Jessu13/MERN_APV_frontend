@@ -53,7 +53,7 @@ const CambiarPassword = () => {
 
             <form onSubmit={handleSubmit}>
                 <div className="my-3">
-                    <label htmlFor="" className="uppercase font-bold text-gray-600">Contraseña Actual</label>
+                    <label htmlFor="pwd_actual" className="uppercase font-bold text-gray-600">Contraseña Actual</label>
                     <input type="password" className="border bg-gray-50 w-full p-2 mt-5 rounded-lg" name="pwd_actual" placeholder="Escribe tu constraseña actual" onChange={e => setPassword({
                       ...password,
                       [e.target.name] : e.target.value
@@ -61,7 +61,7 @@ const CambiarPassword = () => {
                 </div>
 
                 <div className="my-3">
-                    <label htmlFor="" className="uppercase font-bold text-gray-600">Nueva Contraseña</label>
+                    <label htmlFor="pwd_nuevo" className="uppercase font-bold text-gray-600">Nueva Contraseña</label>
                     <input type="password" className="border bg-gray-50 w-full p-2 mt-5 rounded-lg" name="pwd_nuevo" placeholder="Escribe tu constraseña nueva" onChange={e => setPassword({
                       ...password,
                       [e.target.name] : e.target.value

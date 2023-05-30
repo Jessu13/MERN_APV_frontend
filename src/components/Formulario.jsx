@@ -69,12 +69,12 @@ const Formulario = () => {
             </div>
 
             <div className="mb-5">
-                <label htmlFor="propietario" className="text-gray-700 uppercase font-bold">Nombre Propietario</label>
+                <label htmlFor="propietario" className="text-gray-700 uppercase font-bold">Nombre del Dueño</label>
                 <input id="propietario" type="text" placeholder="Nombre del Propietario" className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md" value={propietario} onChange={e => setPropietario(e.target.value)}/>
             </div>
 
             <div className="mb-5">
-                <label htmlFor="email" className="text-gray-700 uppercase font-bold">Email Propietario</label>
+                <label htmlFor="email" className="text-gray-700 uppercase font-bold">Email del Dueño</label>
                 <input id="email" type="text" placeholder="Email del Propietario" className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md" value={email} onChange={e => setEmail(e.target.value)}/>
             </div>
 
@@ -84,7 +84,7 @@ const Formulario = () => {
             </div>
 
             <div className="mb-5">
-                <label htmlFor="sintomas" className="text-gray-700 uppercase font-bold">Fecha dado de Alta</label>
+                <label htmlFor="sintomas" className="text-gray-700 uppercase font-bold">Síntomas</label>
                 <textarea id="sintomas" placeholder="Describe los Síntomas" className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md" value={sintomas} onChange={e => setSintomas(e.target.value)}/>
             </div>
 
